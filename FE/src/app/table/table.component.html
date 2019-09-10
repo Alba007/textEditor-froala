@@ -1,0 +1,7 @@
+
+<div class="back">
+<p class="text" #mess id="mes" [id]="data.id"  [innerHTML]="message">
+</p>
+  <button type="button" class="edit" (click)="edit(mess.id)">Edit</button>
+  <button type="button" class="delete" (click)="delete(mess.id)">Delete</button>
+</div>

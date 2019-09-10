@@ -1,0 +1,57 @@
+.button {
+  background-color: yellow; /* Green */
+  border: none;
+  color: black;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  z-index: 99999;
+  position: absolute;
+  left: 1447px;
+  top: 18px;
+
+}
+
+.addCompo {
+  width: 30%;
+  height: 80%;
+  background-color: white;
+  z-index: 99999999;
+  position: absolute;
+  left: 1045px;
+  top: 40px;
+  border-radius: 5px;
+  cursor: auto;
+  pointer-events: auto;
+}
+
+.editor {
+  width: 30%;
+  height: 80%;
+  background-color: white;
+  z-index: 99999999;
+  position: absolute;
+  left: 1045px;
+  top: 82px;
+  border-radius: 5px;
+  cursor: auto;
+  pointer-events: auto;
+}
+
+.form {
+  position: absolute;
+  left: 9px;
+  top: 50px;
+}
+
+.longitude {
+  float: right;
+}
+
+.latitude {
+
+}

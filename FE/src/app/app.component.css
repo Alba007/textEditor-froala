@@ -1,0 +1,45 @@
+.map {
+    height: 98vh ;
+    width: 97.8vw ;
+    overflow: hidden!important;
+}
+
+.addMessage {
+  background-image: url("../assets/plus.svg");
+  width: 30px;
+  height: 30px;
+  z-index: 999999;
+  position: absolute;
+  top:6vw;
+  left: 1.6vh ;
+}
+.button {
+  background-color: yellow; /* Green */
+  border: none;
+  color: black;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  z-index: 99999;
+  position: absolute;
+  left: 1447px;
+  top: 18px;
+
+}
+#menu {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  right:1vh ;
+  bottom:1vw ;
+  width:100px ;
+  height:100px;
+  background: #fff;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 999999;
+}

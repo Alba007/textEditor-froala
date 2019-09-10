@@ -1,0 +1,17 @@
+
+  <br/><br/>
+  <div class="editor">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form">
+      <textarea [froalaEditor]="options" formControlName="froala"></textarea> <br/>
+      <input type="number" formControlName="latitude" placeholder="Enter the latitude" class="latitude"/>&nbsp;&nbsp;&nbsp;
+      <input type="number" formControlName="longitude" placeholder="Enter the longitude" class="longitude"/>&nbsp;&nbsp;&nbsp;
+      <br/><br/>
+      <button type="submit" class="submit">Submit</button>
+    </form>
+  </div>
+
+
+
+
+
+

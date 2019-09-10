@@ -1,0 +1,10 @@
+<div class="map"
+     leaflet
+     [leafletOptions]="options"
+     (leafletMapReady)="onMapReady($event)">
+  <!--  <input type="button" class="addMessage" (click)="createMessage()" value="+"/>-->
+</div>
+<button class="button" (click)="openFormEditor()">{{formO}}</button>
+<app-test-editor *ngIf="openForm" [data]="data" [open]="open.asObservable()" (close)="closeEditor()"></app-test-editor>
+
+
